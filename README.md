@@ -348,21 +348,7 @@ This Level 2 implementation demonstrates:
 ✅ **Control Plane**: Table configuration, multicast groups, routing  
 ✅ **Hardware Awareness**: Register access patterns, pipeline constraints  
 
-## 🚧 Future Work (Level 3)
 
-Level 3 extends this implementation with **reliability mechanisms**:
-- Timeout and retry logic for packet loss
-- Worker bitmap tracking (duplicate detection)
-- Result caching for retransmissions
-- Unicast responses for missed multicasts
-- Enhanced state management on switch
-
-## 📖 References
-
-1. [SwitchML Paper (NSDI'21)](https://www.usenix.org/conference/nsdi21/presentation/sapio)
-2. [P4 Language Specification](https://p4.org/p4-spec/docs/P4-16-v-1.2.3.html)
-3. [AllReduce Explained](https://tech.preferred.jp/en/blog/technologies-behind-distributed-deep-learning-allreduce/)
-4. [Intel Tofino Architecture](https://github.com/barefootnetworks/Open-Tofino)
 
 ## 🤝 Acknowledgments
 
@@ -377,5 +363,5 @@ This project is developed for educational purposes as part of university coursew
 **Course**: Advanced Networked Systems (SS25)  
 **Lab**: Lab3 - Switches Do Dream of Machine Learning  
 **Level**: Level 2 - In-network AllReduce over UDP  
-**Author**: [Your Name]  
-**Date**: January 2026
+**Author**: Moataz Tarek 
+**Date**: July 2025
